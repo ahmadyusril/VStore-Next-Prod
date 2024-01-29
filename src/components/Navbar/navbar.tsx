@@ -29,11 +29,11 @@ const Navbar = async () => {
       <div className="py-4 border-b-[1px]">
         <Container>
           <div className="flex items-center justify-between gap-3 md-gap-0">
-            <Link
-              href="/"
-              className={`${RubikGlitch.className} font-bold text-2xl`}
-            >
-              Vanguard Store
+            <Link href="/">
+              <img
+                className="w-20 h-15"
+                src="https://firebasestorage.googleapis.com/v0/b/vstore-6e13a.appspot.com/o/products%2Flogo-1.png?alt=media&token=034ee092-3705-42ac-b1e9-908d6b2634e4"
+              />
             </Link>
             <div className="hidden md:block">
               <SearchBar />

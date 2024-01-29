@@ -7,6 +7,7 @@ const nextConfig = {
       "firebasestorage.googleapis.com",
     ],
   },
+  reactStrictMode: false,
 };
 
 module.exports = nextConfig;
