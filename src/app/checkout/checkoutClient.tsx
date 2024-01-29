@@ -84,7 +84,7 @@ const CheckoutClient = () => {
       {loading && <div className="text-center">Loading Checkout...</div>}
       {error && (
         <div className="text-center text-rose-500">
-          "Something went wrong..."
+          &quot;Something went wrong...&quot;
         </div>
       )}
       {paymentSuccess && (
