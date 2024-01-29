@@ -48,7 +48,7 @@ export default async function getGraphData() {
         }
 
         // Calculate the total amount for each day by summing the order amounts
-        result.forEach((entry) => {
+        result.forEach((entry: any) => {
             const day = moment(entry.createdDate).format('dddd');
             const amount = entry._sum.amount || 0;
             aggregatedData[day].totalAmount += amount;
